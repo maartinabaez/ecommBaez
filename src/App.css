@@ -7,3 +7,13 @@ p{
   color: white;
   align-self: flex-end;
 }
+
+button{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+}

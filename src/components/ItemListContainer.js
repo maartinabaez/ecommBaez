@@ -2,12 +2,12 @@ import React from 'react';
 import ItemCount from './ItemCount';
 
 const ItemListContainer = (props) =>{
-    props = {
-     }
     return(
+        <div>
         <p>{props.greetings}</p>
-    );
-    <ItemCount />
+        <ItemCount stock={10} initial={1} /> 
+        </div> );
+
 }
 
 export default ItemListContainer;
