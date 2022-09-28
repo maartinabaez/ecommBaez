@@ -1,8 +1,15 @@
 import React from 'react'
 
-export const Item = () => {
+const Item = ({product}) => {
   return (
-    <div>Item</div>
+    <>
+    <div>{product.name}</div>
+    <div>{product.cost}</div>
+
+    <div>{product.detail}</div>
+    <div>{product.img}</div>
+
+    </>
   )
 }
 
